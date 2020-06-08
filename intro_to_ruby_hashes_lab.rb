@@ -5,6 +5,7 @@ end
 def actor
  actor_hash = new_hash
  actor_hash[:name] = "Dwayne The Rock Johnson"
+ return actor_hash
 end
 
 def monopoly
