@@ -30,6 +30,7 @@ def monopoly_with_third_tier
    	monopoly[:railroads][:names] = {}
   	monopoly[:railroads][:rent_in_dollars] = {}
   	monopoly[:railroads][:rent_in_dollars][:one_piece_owned] = 25
+  	monopoly[:railroads][:rent_in_dollars][:two_pieces_owned] = 50
   return monopoly
 end
 
